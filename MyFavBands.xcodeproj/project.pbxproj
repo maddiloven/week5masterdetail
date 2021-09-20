@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1222880A232F340E0094AD50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12228809232F340E0094AD50 /* AppDelegate.swift */; };
+		1222880C232F340E0094AD50 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1222880B232F340E0094AD50 /* MasterViewController.swift */; };
+		1222880E232F340E0094AD50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1222880D232F340E0094AD50 /* DetailViewController.swift */; };
+		12228811232F340E0094AD50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1222880F232F340E0094AD50 /* Main.storyboard */; };
+		12228813232F340F0094AD50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12228812232F340F0094AD50 /* Assets.xcassets */; };
+		12228816232F340F0094AD50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12228814232F340F0094AD50 /* LaunchScreen.storyboard */; };
+		9970E7E326F8023F00D4CC75 /* Rihanna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7D926F8023F00D4CC75 /* Rihanna.jpg */; };
+		9970E7E426F8023F00D4CC75 /* Lizzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7DA26F8023F00D4CC75 /* Lizzo.jpg */; };
+		9970E7E526F8023F00D4CC75 /* Childish Gambino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7DB26F8023F00D4CC75 /* Childish Gambino.jpg */; };
+		9970E7E626F8023F00D4CC75 /* Lorde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7DC26F8023F00D4CC75 /* Lorde.jpg */; };
+		9970E7E726F8023F00D4CC75 /* Lil Nas X.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7DD26F8023F00D4CC75 /* Lil Nas X.jpg */; };
+		9970E7E826F8023F00D4CC75 /* Lord Huron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7DE26F8023F00D4CC75 /* Lord Huron.jpg */; };
+		9970E7E926F8023F00D4CC75 /* Harry Styles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7DF26F8023F00D4CC75 /* Harry Styles.jpg */; };
+		9970E7EA26F8023F00D4CC75 /* Queens of the Stone Age.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7E026F8023F00D4CC75 /* Queens of the Stone Age.jpg */; };
+		9970E7EB26F8023F00D4CC75 /* The 1975.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7E126F8023F00D4CC75 /* The 1975.jpg */; };
+		9970E7EC26F8023F00D4CC75 /* Wallows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7E226F8023F00D4CC75 /* Wallows.jpg */; };
+		9970E7EE26F8095F00D4CC75 /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9970E7ED26F8095F00D4CC75 /* main.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12228806232F340E0094AD50 /* MyFavBands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavBands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12228809232F340E0094AD50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1222880B232F340E0094AD50 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		1222880D232F340E0094AD50 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		12228810232F340E0094AD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12228812232F340F0094AD50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12228815232F340F0094AD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12228817232F340F0094AD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9970E7D926F8023F00D4CC75 /* Rihanna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rihanna.jpg; sourceTree = "<group>"; };
+		9970E7DA26F8023F00D4CC75 /* Lizzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lizzo.jpg; sourceTree = "<group>"; };
+		9970E7DB26F8023F00D4CC75 /* Childish Gambino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Childish Gambino.jpg"; sourceTree = "<group>"; };
+		9970E7DC26F8023F00D4CC75 /* Lorde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lorde.jpg; sourceTree = "<group>"; };
+		9970E7DD26F8023F00D4CC75 /* Lil Nas X.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lil Nas X.jpg"; sourceTree = "<group>"; };
+		9970E7DE26F8023F00D4CC75 /* Lord Huron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lord Huron.jpg"; sourceTree = "<group>"; };
+		9970E7DF26F8023F00D4CC75 /* Harry Styles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Harry Styles.jpg"; sourceTree = "<group>"; };
+		9970E7E026F8023F00D4CC75 /* Queens of the Stone Age.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Queens of the Stone Age.jpg"; sourceTree = "<group>"; };
+		9970E7E126F8023F00D4CC75 /* The 1975.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The 1975.jpg"; sourceTree = "<group>"; };
+		9970E7E226F8023F00D4CC75 /* Wallows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wallows.jpg; sourceTree = "<group>"; };
+		9970E7ED26F8095F00D4CC75 /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12228803232F340E0094AD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122287FD232F340E0094AD50 = {
+			isa = PBXGroup;
+			children = (
+				1222881D232F34A60094AD50 /* images */,
+				12228808232F340E0094AD50 /* MyFavBands */,
+				12228807232F340E0094AD50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12228807232F340E0094AD50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12228806232F340E0094AD50 /* MyFavBands.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12228808232F340E0094AD50 /* MyFavBands */ = {
+			isa = PBXGroup;
+			children = (
+				12228809232F340E0094AD50 /* AppDelegate.swift */,
+				1222880B232F340E0094AD50 /* MasterViewController.swift */,
+				1222880D232F340E0094AD50 /* DetailViewController.swift */,
+				1222880F232F340E0094AD50 /* Main.storyboard */,
+				12228812232F340F0094AD50 /* Assets.xcassets */,
+				12228814232F340F0094AD50 /* LaunchScreen.storyboard */,
+				12228817232F340F0094AD50 /* Info.plist */,
+			);
+			path = MyFavBands;
+			sourceTree = "<group>";
+		};
+		1222881D232F34A60094AD50 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9970E7ED26F8095F00D4CC75 /* main.jpg */,
+				9970E7DB26F8023F00D4CC75 /* Childish Gambino.jpg */,
+				9970E7DF26F8023F00D4CC75 /* Harry Styles.jpg */,
+				9970E7DD26F8023F00D4CC75 /* Lil Nas X.jpg */,
+				9970E7DA26F8023F00D4CC75 /* Lizzo.jpg */,
+				9970E7DE26F8023F00D4CC75 /* Lord Huron.jpg */,
+				9970E7DC26F8023F00D4CC75 /* Lorde.jpg */,
+				9970E7E026F8023F00D4CC75 /* Queens of the Stone Age.jpg */,
+				9970E7D926F8023F00D4CC75 /* Rihanna.jpg */,
+				9970E7E126F8023F00D4CC75 /* The 1975.jpg */,
+				9970E7E226F8023F00D4CC75 /* Wallows.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12228805232F340E0094AD50 /* MyFavBands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1222881A232F340F0094AD50 /* Build configuration list for PBXNativeTarget "MyFavBands" */;
+			buildPhases = (
+				12228802232F340E0094AD50 /* Sources */,
+				12228803232F340E0094AD50 /* Frameworks */,
+				12228804232F340E0094AD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFavBands;
+			productName = MyFavBands;
+			productReference = 12228806232F340E0094AD50 /* MyFavBands.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		122287FE232F340E0094AD50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Charles Konkol";
+				TargetAttributes = {
+					12228805232F340E0094AD50 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 12228801232F340E0094AD50 /* Build configuration list for PBXProject "MyFavBands" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 122287FD232F340E0094AD50;
+			productRefGroup = 12228807232F340E0094AD50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12228805232F340E0094AD50 /* MyFavBands */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12228804232F340E0094AD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9970E7E926F8023F00D4CC75 /* Harry Styles.jpg in Resources */,
+				9970E7E626F8023F00D4CC75 /* Lorde.jpg in Resources */,
+				9970E7EB26F8023F00D4CC75 /* The 1975.jpg in Resources */,
+				9970E7E726F8023F00D4CC75 /* Lil Nas X.jpg in Resources */,
+				12228816232F340F0094AD50 /* LaunchScreen.storyboard in Resources */,
+				9970E7E826F8023F00D4CC75 /* Lord Huron.jpg in Resources */,
+				12228813232F340F0094AD50 /* Assets.xcassets in Resources */,
+				9970E7EC26F8023F00D4CC75 /* Wallows.jpg in Resources */,
+				9970E7EE26F8095F00D4CC75 /* main.jpg in Resources */,
+				9970E7E526F8023F00D4CC75 /* Childish Gambino.jpg in Resources */,
+				12228811232F340E0094AD50 /* Main.storyboard in Resources */,
+				9970E7EA26F8023F00D4CC75 /* Queens of the Stone Age.jpg in Resources */,
+				9970E7E426F8023F00D4CC75 /* Lizzo.jpg in Resources */,
+				9970E7E326F8023F00D4CC75 /* Rihanna.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12228802232F340E0094AD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1222880E232F340E0094AD50 /* DetailViewController.swift in Sources */,
+				1222880C232F340E0094AD50 /* MasterViewController.swift in Sources */,
+				1222880A232F340E0094AD50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1222880F232F340E0094AD50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12228810232F340E0094AD50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12228814232F340F0094AD50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12228815232F340F0094AD50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12228818232F340F0094AD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12228819232F340F0094AD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1222881B232F340F0094AD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFavBands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.MyFavBands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1222881C232F340F0094AD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFavBands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.MyFavBands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12228801232F340E0094AD50 /* Build configuration list for PBXProject "MyFavBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12228818232F340F0094AD50 /* Debug */,
+				12228819232F340F0094AD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1222881A232F340F0094AD50 /* Build configuration list for PBXNativeTarget "MyFavBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1222881B232F340F0094AD50 /* Debug */,
+				1222881C232F340F0094AD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 122287FE232F340E0094AD50 /* Project object */;
+}
